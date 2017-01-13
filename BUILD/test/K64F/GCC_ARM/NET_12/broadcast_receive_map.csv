@@ -1,0 +1,2 @@
+BUILD/mbed.text,BUILD/mbed.data,BUILD/mbed.bss,BUILD/test.text,BUILD/test.data,BUILD/test.bss,Fill.text,Fill.data,Fill.bss,Misc.text,Misc.data,Misc.bss,static_ram,heap,stack,total_ram,total_flash
+13575,16,464,143,0,0,115,2,2461,72403,2246,58191,63380,65540,unknown,128920,89540

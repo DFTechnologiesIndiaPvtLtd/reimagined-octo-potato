@@ -1,0 +1,1 @@
+-I/home/adems/mbed-os/BUILD -I/home/adems/mbed-os/features/unsupported/tests/mbed -I/home/adems/mbed-os/features/unsupported/tests/mbed/blinky -I/home/adems/mbed-os/features/unsupported/tests/mbed/env

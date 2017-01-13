@@ -1,0 +1,43 @@
+[
+    {
+        "module": "BUILD/mbed", 
+        "size": {
+            ".data": 8, 
+            ".bss": 505, 
+            ".text": 4129
+        }
+    }, 
+    {
+        "module": "BUILD/test", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 143
+        }
+    }, 
+    {
+        "module": "Fill", 
+        "size": {
+            ".data": 2, 
+            ".bss": 24, 
+            ".text": 108
+        }
+    }, 
+    {
+        "module": "Misc", 
+        "size": {
+            ".data": 2254, 
+            ".bss": 22971, 
+            ".text": 70336
+        }
+    }, 
+    {
+        "summary": {
+            "total_flash": 76980, 
+            "static_ram": 25764, 
+            "stack": 1024, 
+            "heap": 3072, 
+            "total_ram": 29860
+        }
+    }
+]
