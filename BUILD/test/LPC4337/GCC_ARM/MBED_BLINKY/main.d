@@ -92,4 +92,5 @@
  /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/hal/sleep_api.h \
  /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/platform/rtc_time.h \
  /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/platform/Callback.h \
- /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/platform/FunctionPointer.h
+ /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/platform/FunctionPointer.h \
+ /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/drivers/Ethernet.h

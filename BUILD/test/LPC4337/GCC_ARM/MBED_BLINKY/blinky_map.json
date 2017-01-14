@@ -3,41 +3,41 @@
         "module": "BUILD/mbed", 
         "size": {
             ".data": 8, 
-            ".bss": 505, 
-            ".text": 4065
+            ".bss": 517, 
+            ".text": 5056
         }
     }, 
     {
         "module": "BUILD/test", 
         "size": {
-            ".data": 4, 
-            ".bss": 24, 
-            ".text": 264
+            ".data": 5, 
+            ".bss": 465, 
+            ".text": 1014
         }
     }, 
     {
         "module": "Fill", 
         "size": {
-            ".data": 0, 
-            ".bss": 6, 
-            ".text": 39
+            ".data": 3, 
+            ".bss": 9, 
+            ".text": 76
         }
     }, 
     {
         "module": "Misc", 
         "size": {
-            ".data": 2172, 
-            ".bss": 97, 
-            ".text": 22172
+            ".data": 2220, 
+            ".bss": 109, 
+            ".text": 40652
         }
     }, 
     {
         "summary": {
-            "total_flash": 28724, 
-            "static_ram": 2816, 
+            "total_flash": 49034, 
+            "static_ram": 3336, 
             "stack": 1024, 
             "heap": 3072, 
-            "total_ram": 6912
+            "total_ram": 7432
         }
     }
 ]
