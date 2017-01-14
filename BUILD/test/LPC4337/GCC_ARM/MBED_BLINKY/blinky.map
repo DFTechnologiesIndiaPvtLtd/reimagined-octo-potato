@@ -10,20 +10,20 @@ Archive member included to satisfy reference by file (symbol)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/i2c_api.o (pinmap_pinout)
 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/us_ticker.o (us_ticker_irq_handler)
+/media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+                              /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o) (ticker_irq_handler)
 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/analogin_api.o (mbed_assert_internal)
+/media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                              /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/mbed_board.o (core_util_critical_section_enter)
 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/ethernet_api.o (error)
 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/ethernet_api.o (mbed_mac_address)
-/media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
-                              /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/mbed_board.o (core_util_critical_section_enter)
 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/test/LPC4337/GCC_ARM/MBED_BLINKY/./main.o (wait)
 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(FileBase.o)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(FileSystemLike.o) (mbed::FileBase::getName())
-/media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
-                              /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o) (ticker_irq_handler)
 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libm.a(lib_a-s_floor.o)
                               /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/spi_api.o (floor)
 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-abs.o)
@@ -799,20 +799,22 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
  .text.get_us_ticker_data
                 0x0000000000000000        0x8 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
+ .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .text.ticker_set_handler
+                0x0000000000000000       0x12 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .text.ticker_insert_event
+                0x0000000000000000       0x42 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .text.ticker_remove_event
+                0x0000000000000000       0x3e /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .text.ticker_read
+                0x0000000000000000        0x6 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .text.ticker_get_next_timestamp
+                0x0000000000000000       0x22 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
  .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
  .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
  .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
- .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
- .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
- .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
- .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
- .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
- .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
- .text.mbed_mac_address
-                0x0000000000000000       0x16 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
- .comment       0x0000000000000000       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
- .ARM.attributes
-                0x0000000000000000       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
  .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
  .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
  .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
@@ -840,6 +842,17 @@ Discarded input sections
                 0x0000000000000000        0x4 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
  .text.core_util_atomic_decr_ptr
                 0x0000000000000000        0x4 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+ .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+ .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+ .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+ .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
+ .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
+ .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
+ .text.mbed_mac_address
+                0x0000000000000000       0x16 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
+ .comment       0x0000000000000000       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_interface.o)
  .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
  .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
  .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
@@ -874,19 +887,6 @@ Discarded input sections
  .comment       0x0000000000000000       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(FileBase.o)
  .ARM.attributes
                 0x0000000000000000       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(FileBase.o)
- .text          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
- .data          0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
- .bss           0x0000000000000000        0x0 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
- .text.ticker_set_handler
-                0x0000000000000000       0x12 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
- .text.ticker_insert_event
-                0x0000000000000000       0x42 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
- .text.ticker_remove_event
-                0x0000000000000000       0x3e /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
- .text.ticker_read
-                0x0000000000000000        0x6 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
- .text.ticker_get_next_timestamp
-                0x0000000000000000       0x22 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libm.a(lib_a-s_floor.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libm.a(lib_a-s_floor.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libm.a(lib_a-s_floor.o)
@@ -2161,7 +2161,7 @@ Memory Configuration
 
 Name             Origin             Length             Attributes
 FLASH            0x0000000014000000 0x0000000002000000 xr
-RAM              0x0000000010080000 0x0000000000012000 xrw
+RAM              0x0000000010080000 0x0000000000008000 xrw
 USB_RAM          0x0000000020000000 0x0000000000008000 xrw
 ETH_RAM          0x0000000020080000 0x0000000000008000 xrw
 *default*        0x0000000000000000 0xffffffffffffffff
@@ -2439,30 +2439,30 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
  .text.us_ticker_irq_handler
                 0x0000000014000e04        0xc /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
                 0x0000000014000e04                us_ticker_irq_handler
- .text.mbed_assert_internal
-                0x0000000014000e10       0x24 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
-                0x0000000014000e10                mbed_assert_internal
- .text.error    0x0000000014000e34       0x16 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
-                0x0000000014000e34                error
- .text.core_util_are_interrupts_enabled
-                0x0000000014000e4a        0xe /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
-                0x0000000014000e4a                core_util_are_interrupts_enabled
- .text.core_util_critical_section_enter
-                0x0000000014000e58       0x54 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
-                0x0000000014000e58                core_util_critical_section_enter
- .text.core_util_critical_section_exit
-                0x0000000014000eac       0x3c /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
-                0x0000000014000eac                core_util_critical_section_exit
- .text.wait_us  0x0000000014000ee8       0x16 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
-                0x0000000014000ee8                wait_us
- *fill*         0x0000000014000efe        0x2 
- .text.wait     0x0000000014000f00       0x1c /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
-                0x0000000014000f00                wait
- .text.wait_ms  0x0000000014000f1c        0xa /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
-                0x0000000014000f1c                wait_ms
  .text.ticker_irq_handler
-                0x0000000014000f26       0x48 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
-                0x0000000014000f26                ticker_irq_handler
+                0x0000000014000e10       0x48 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+                0x0000000014000e10                ticker_irq_handler
+ .text.mbed_assert_internal
+                0x0000000014000e58       0x24 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
+                0x0000000014000e58                mbed_assert_internal
+ .text.core_util_are_interrupts_enabled
+                0x0000000014000e7c        0xe /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                0x0000000014000e7c                core_util_are_interrupts_enabled
+ *fill*         0x0000000014000e8a        0x2 
+ .text.core_util_critical_section_enter
+                0x0000000014000e8c       0x54 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                0x0000000014000e8c                core_util_critical_section_enter
+ .text.core_util_critical_section_exit
+                0x0000000014000ee0       0x3c /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+                0x0000000014000ee0                core_util_critical_section_exit
+ .text.error    0x0000000014000f1c       0x16 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+                0x0000000014000f1c                error
+ .text.wait_us  0x0000000014000f32       0x16 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
+                0x0000000014000f32                wait_us
+ .text.wait     0x0000000014000f48       0x1c /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
+                0x0000000014000f48                wait
+ .text.wait_ms  0x0000000014000f64        0xa /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
+                0x0000000014000f64                wait_ms
  *fill*         0x0000000014000f6e        0x2 
  .text.abs      0x0000000014000f70        0x8 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-abs.o)
                 0x0000000014000f70                abs
@@ -2907,9 +2907,9 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
 .stack_dummy    0x0000000010080b00      0x400
  *(.stack)
  .stack         0x0000000010080b00      0x400 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/startup_LPC43xx.o
-                0x0000000010092000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
-                0x0000000010091c00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
-                0x0000000010092000                PROVIDE (__stack, __StackTop)
+                0x0000000010088000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000010087c00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000010088000                PROVIDE (__stack, __StackTop)
                 0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
 
 .AHBSRAM0       0x0000000020000000        0x0
@@ -2958,15 +2958,15 @@ OUTPUT(/media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/test/LPC4
  .ARM.attributes
                 0x00000000000002f0       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
  .ARM.attributes
-                0x0000000000000327       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
+                0x0000000000000327       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
  .ARM.attributes
-                0x000000000000035e       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+                0x000000000000035e       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
  .ARM.attributes
                 0x0000000000000395       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
  .ARM.attributes
-                0x00000000000003cc       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
+                0x00000000000003cc       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
  .ARM.attributes
-                0x0000000000000403       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+                0x0000000000000403       0x37 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
  .ARM.attributes
                 0x000000000000043a       0x32 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-abs.o)
  .ARM.attributes
@@ -3071,11 +3071,11 @@ OUTPUT(/media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/test/LPC4
  .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_gpio.o)
  .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_pinmap_common.o)
  .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_us_ticker_api.o)
- .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
- .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
- .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
- .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
  .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_ticker_api.o)
+ .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_assert.o)
+ .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_critical.o)
+ .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_error.o)
+ .comment       0x0000000000000038       0x39 /media/adems/e7cdae34-f8e0-4a3e-b804-7e3ff37522fe/mbed-os/BUILD/mbed/TARGET_LPC4337/TOOLCHAIN_GCC_ARM/libmbed.a(mbed_wait_api_no_rtos.o)
  .comment       0x0000000000000038       0x38 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-abs.o)
                                          0x39 (size before relaxing)
  .comment       0x0000000000000070       0x39 /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a(lib_a-fflush.o)
